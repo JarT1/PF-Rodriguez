@@ -1,0 +1,23 @@
+@mixin sidebar2 {
+    @media screen and (min-width: 572px) {
+        @content;
+    }
+}
+
+@mixin sidebar {
+    @media  screen and (max-width: 572px) {
+        @content;
+    }
+}
+
+@mixin sidebar3 {
+    @media screen and ((max-height: 434px)) {
+        @content;
+    }
+}
+
+@mixin footer {
+    @media screen and (max-width: 800px) {
+        @content;
+    }
+}
