@@ -13,37 +13,93 @@
 <body>
     <header>
         <nav>
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
-            </label>
-            <a href="" class="enlace">
-                    <img src="./media/Logotipo Comida Burger Moderno Minimalista Negro.png" alt="" class="logo">
-            </a>
-            <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="/pages/menu.html">Menu</a></li>
-                    <li><a href="/pages/nosotros.html">Nosotros</a></li>
-                    <li><a href="/pages/sucursales.html">Sucursales</a></li>
-                    <li><a href="/pages/delivery.html">Delivery</a></li>
+            <input id="nav-toggle" type="checkbox">
+            <div class="logo"> <img src="/media/logofuguis.png" alt="">
+                </div>
+            <ul class="links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="./pages/menu.html">Menu</a></li>
+                <li><a href="./pages/delivery.html">Delivery</a></li>
+                <li><a href="./pages/sucursales.html">Sucursales</a></li>
+                <li><a href="./pages/nosotros.html">Nosotros</a></li>
             </ul>
+            <label for="nav-toggle" class="icon-burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
         </nav>
     </header>
 
-      <main class="m-2 p-2">
-       
-      </main>
+        <div class="">
+            <img src="/media/fondo1920x1080.png" alt="" class="fondo1920">
+        </div>
 
-      <section class="m-2 p-2">
-        
-      </section>
+        <div>
+            <img src="/media/pedidos.png" class="img-fluid" alt="...">
+        </div>
 
+        <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <a href=""> <img src="/media/GLOVO.png" alt=""> </a>
+              </div>
+              <div class="col">
+               <a href=""> <img src="/media/pedidosya.png" alt=""></a>
+              </div>
+              <div class="col">
+                <a href=""><img src="/media/rappilogo.png" alt=""> </a>
+              </div>
+            </div>
+          </div>
+
+        <div class="ftbranca">
+            <img src="/media/sponsorship.png.png" alt="" class="branca">
+        </div>
+
+        <div class="container text-center mt-4 mb-4">
+            <div class="row">
+              <div class="col-sm-8"><img src="./media/descuentoemail.png" class="img-fluid" alt="..."> </div>
+              <div class="col-sm-4"><button class="btn btn-primary p-3 m-3 w-75 h-75" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Registrate aqui</button></div>
+            </div>
+        </div>
+
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">REGISTRATE</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <a href="https://api.whatsapp.com/send/?phone=%2B5468545818&text&type=phone_number&app_absent=0">
+                    WhatsApp
+              <i class="fa fa-whatsapp"></i>
+          </a>
+          <a href="https://www.facebook.com/ ">
+                  Facebook
+              <i class="fa fa-facebook-f"></i>
+          </a>
+          <div class="mb-3 row">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <div class="col-sm-10">
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword">
+              <input type="button" value="Send" id="boton">
+            </div>
+          </div>
+          </div>
+        </div>
+      
       <footer class="pie-pagina">
             <div class="grupo-1">
                 <div class="box">
                     <figure>
                         <a href="#">
-                            <img src="./galery/logo2.png" alt="Logo de Empresa" class="radio">
+                            <img src="./media/logofuguis.png" alt="Logo de Empresa" class="radio">
                         </a>
                     </figure>
                 </div>
